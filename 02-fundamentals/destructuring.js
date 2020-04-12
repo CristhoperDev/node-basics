@@ -2,7 +2,7 @@ let deadpool = {
     name: 'Wade',
     lastname: 'Winston',
     power: 'Regeneration',
-    getNombre: function() {
+    getName: function() {
         return `${this.name} ${this.lastname} - power ${this.power}`;
     }
 }
