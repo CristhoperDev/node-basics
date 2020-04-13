@@ -47,9 +47,9 @@ let getSalary = (employee => {
 });
 
 getEmployee(3).then(employee => {
-
-    getSalary(employee).then((response) => {
+        return getSalary(employee);
+    })
+    .then((response) => {
         console.log(`The salary of ${response.name} is $${response.salary}`);
-    }, (err) => console.log(err));
-
-}, (err) => console.log(err));
+    })
+    .catch(err => console.log(err));
