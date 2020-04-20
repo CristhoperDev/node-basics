@@ -2,4 +2,5 @@
 .idea/*
 .idea
 node_modules/
+files/
 .DS_Store
