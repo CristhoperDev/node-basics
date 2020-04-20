@@ -1,0 +1,23 @@
+{
+  "name": "03-node-base",
+  "version": "1.0.0",
+  "description": "This is an application of command lines",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristhoperDev/node-basics.git"
+  },
+  "author": "Cristhoper Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristhoperDev/node-basics/issues"
+  },
+  "homepage": "https://github.com/CristhoperDev/node-basics#readme",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {}
+}
